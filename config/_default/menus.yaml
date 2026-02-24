@@ -4,24 +4,24 @@
   #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: Bio
+  - name: Bio(プロフィール)
     url: /
     weight: 10
-  - name: Papers
-    url: /#papers
+  - name: Research（研究）
+    url: /#research
     weight: 11
-  - name: Talks
-    url: /#talks
+  - name: Papers(論文)
+    url: 'https://researchmap.jp/shinnaga/published_papers'
     weight: 12
-  - name: News
-    url: /#news
+  - name: Access（アクセス）
+    url: /#access
     weight: 13
-  - name: Experience
-    url: experience/
+  - name: Projects（プロジェクト）
+    url: project/
     weight: 20
-  - name: Projects
-    url: projects/
+  - name: Frinds_of_Astronomy（アウトリーチ）
+    url: outreach/
     weight: 30
-  - name: Courses
-    url: courses/
-    weight: 40
+ # - name: Contact（連絡先）
+ #   url: contact/
+ #   weight: 40
