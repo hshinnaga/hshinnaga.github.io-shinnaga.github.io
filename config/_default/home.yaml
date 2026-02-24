@@ -1,0 +1,30 @@
+# config/_default/home.yaml
+
+sections:
+  - block: hero
+    content:
+      page: home/hero
+
+  - block: about
+    content:
+      page: home/about
+
+  - block: featurette
+    content:
+      page: home/research
+
+  - block: publications
+    content:
+      page: home/publications
+
+  - block: portfolio
+    content:
+      page: home/projects
+
+  - block: featurette
+    content:
+      page: home/outreach
+
+  - block: contact
+    content:
+      page: home/contact
