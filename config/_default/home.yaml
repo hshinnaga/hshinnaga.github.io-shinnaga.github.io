@@ -1,5 +1,3 @@
-# config/_default/home.yaml
-
 sections:
   - block: hero
     content:
@@ -13,9 +11,9 @@ sections:
     content:
       page: home/research
 
-  - block: publications
+  - block: featurette
     content:
-      page: home/publications
+      page: home/access
 
   - block: portfolio
     content:
@@ -24,7 +22,3 @@ sections:
   - block: featurette
     content:
       page: home/outreach
-
-  - block: contact
-    content:
-      page: home/contact
